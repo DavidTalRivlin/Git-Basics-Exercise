@@ -1,7 +1,7 @@
-function onBallClick(elBall) {
+function onBallClick(elBall,max) {
       var ballSize = elBall.offsetHeight
 
-      if (ballSize > 350) {
+      if (ballSize > max) {
             elBall.style.height = '100px'
             elBall.innerText = '100'
       } else {

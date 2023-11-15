@@ -7,8 +7,8 @@ h1{
 }
 
 .ball{
-      background-color: yellow;
-      height: 100px;
+      
+      
       border-radius: 50%;
       margin: auto;
       aspect-ratio:1/1;
@@ -16,7 +16,18 @@ h1{
       vertical-align: center;
       font-size: 22px;
       font-weight: 700;
-      transition: height 0.5s, width 0.5s;
+      transition: height 0.5s, width 0.5s;  
+      margin-top: 20px
       
-      
+
+}
+.ball1{
+      height: 100px;
+      background-color: yellow;
+}
+
+.ball2 {
+      margin top: 300px;
+      height: 100px;
+      background-color: rgb(0, 255, 106);
 }
