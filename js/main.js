@@ -8,6 +8,7 @@ function onBallClick(elBall) {
             var num = getRandomIntInclusive(20,61)
             elBall.style.height = `${ballSize + num}px`
             elBall.innerText = `${ballSize + num}`
+            elBall.style.backgroundColor = (getRandomColor())
       }
 }
 
